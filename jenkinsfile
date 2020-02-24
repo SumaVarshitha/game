@@ -1,0 +1,22 @@
+pipeline {
+libraries{
+lib 'shlib'
+}
+
+ agent any
+   tools{
+        maven "Maven"
+    }
+    stages
+    {
+    stage(github)
+    {
+    steps
+    {
+    githubcommit()
+    }
+    }
+    }
+    }
+    
+    
