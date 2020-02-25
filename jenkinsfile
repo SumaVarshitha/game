@@ -9,11 +9,19 @@ lib 'shlibb'
     }
     stages
     {
-    stage('github')
+    stage('git commit')
     {
     steps
     {
     gitcommit()
+    }
+    }
+    
+    stage('git pull')
+    {
+    steps
+    {
+    gitpullrequest()
     }
     }
     }
