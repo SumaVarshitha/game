@@ -2,8 +2,7 @@ pipeline {
 libraries{
 lib 'shlibb'
 }
-
- agent any
+agent any
    tools{
         maven "Maven"
     }
