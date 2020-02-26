@@ -21,7 +21,7 @@ lib 'shlibb'
     {
     steps
     {
-    gitpullrequest()
+    gitpullrequest(jsondata)
     }
     }
     }
