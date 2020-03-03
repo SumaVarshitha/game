@@ -13,7 +13,7 @@ lib 'shlibb'
     {
     steps
     {
-    gitcommit(jsondata)
+    Github_Commit(jsondata)
     }
     }
     
